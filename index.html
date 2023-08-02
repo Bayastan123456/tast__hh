@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <nav class="navbar bg-body">
+      <div class="container d-flex justify-content-between w-100 flex-nowrap">
+        <a class="navbar-brand" href="#">
+          <img
+            src="./images/лого.svg"
+            alt="Bootstrap"
+            width="150"
+            height="59"
+          />
+        </a>
+        <input
+          type="search"
+          class="form-control w-50"
+          placeholder="search"
+          aria-label="search"
+          aria-describedby="addon-wrapping"
+        />
+        <button type="button" class="btn btn-outline-warning">Вход</button>
+        <button type="button" class="btn btn-warning">Регистрация</button>
+      </div>
+    </nav>
+    <div
+      class="filtr__block"
+      style="display: flex; justify-content: space-between; margin-top: 30px"
+    >
+      <select class="form-select w-25" aria-label="Default select example">
+        <option selected>Фильтрация</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+      </select>
+      <input
+        type="search"
+        class="form-control w-25"
+        placeholder="search"
+        aria-label="search"
+        aria-describedby="addon-wrapping"
+      />
+      <select class="form-select w-25" aria-label="Default select example">
+        <option selected>По умолчанию</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+      </select>
+    </div>
+    <div
+      class="backgraund"
+      style="
+        position: absolute;
+        width: 364.617px;
+        height: 335px;
+        border-radius: 364.617px;
+        background: rgba(253, 212, 70, 0.5);
+        filter: blur(90.25169372558594px);
+        left: -85px;
+      "
+    ></div>
+
+    <div
+      class="card__list"
+      style="
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 50px 15%;
+      "
+    >
+      <div class="card" style="width: 18rem">
+        <img
+          src="./images/фотка.png"
+          class="card-img-top"
+          alt="настя ивлеева"
+        />
+        <div class="card-body">
+          <h5 class="card-title fs-2">Без слов</h5>
+          <div
+            class="mini__foto"
+            style="
+              display: flex;
+              justify-content: space-between;
+              width: 100%;
+              align-items: center;
+            "
+          >
+            <img
+              width="40%"
+              src="./images//маленькая фотка звезды.png"
+              alt="Ивлеева"
+            />
+            <div class="mini__block-title">
+              <p style="font-size: 20px">
+                Настя Ивлеева <br />
+                Вячеславовна
+              </p>
+              <span style="color: darkorange"
+                >Проверено <img src="./images/галочка.svg" alt="галочка"
+              /></span>
+            </div>
+          </div>
+          <div
+            class="unical"
+            style="
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              width: 100%;
+              margin-bottom: 10px;
+            "
+          >
+            <p style="margin: 0; font-weight: bold">Редкость:</p>
+            <button class="btn btn-outline-warning text-dark">уникалная</button>
+          </div>
+          <div
+            class="price"
+            style="
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              margin-bottom: 10px;
+            "
+          >
+            <p style="margin: 0; font-weight: bold">Цена:</p>
+            <button class="btn btn-warning" style="height: 35px">
+              от 500 ₽
+            </button>
+          </div>
+
+          <a href="#" class="btn btn-warning w-100 rounded-5">Купить</a>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer__block">
+        <ul>
+          <li>NFT</li>
+          <li>Что такое NFT</li>
+          <li>Создайте NFT с нами</li>
+          <li>
+            <img src="./images/twitter-3 1.svg" alt="tw" />
+            <img src="./images/vk3.svg" alt="error" />
+          </li>
+        </ul>
+        <ul>
+          <li>Компания</li>
+          <li>О нас</li>
+          <li>Отправить запрос</li>
+        </ul>
+        <ul>
+          <li>Другое</li>
+          <li>Условия использования</li>
+          <li>Политика конфиденциальности</li>
+        </ul>
+      </div>
+      <div class="icon__footer">
+        <img src="./images/Vector 2 1.svg" alt="error" />
+        <hr />
+        <span>@ tnft.ru Company, Inc</span>
+      </div>
+    </footer>
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
